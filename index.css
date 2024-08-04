@@ -13,8 +13,8 @@ html, body {
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin: 0 auto;
 }
 
@@ -24,7 +24,35 @@ input {
     border: 0;
     padding: 15px;
     border-radius: 8px;
-    font-size: 20pz;
+    font-size: 20px;
     text-align: center;
     font-family: 'Rubik',sans-serif;
+}
+
+button {
+    color:lightblue;
+    background-color: slateblue;
+    border: 0px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+ul li {
+    background-color: #7ddcec;
+    padding: 20px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.2)
 }
