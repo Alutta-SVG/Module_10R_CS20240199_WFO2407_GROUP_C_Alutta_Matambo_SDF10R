@@ -45,7 +45,7 @@ onValue(shoppingListInDB, function(snapshot) {
    }
 
 })
-//fuction to clea the shopping list
+//fuction to clear the shopping list
 function clearShoppingListEl() {
     shoppingListEl.innerHTML = ""
 }
