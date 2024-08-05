@@ -40,6 +40,11 @@ button {
     font-family: 'Rubik', sans-serif;
 }
 
+button:hover {
+    background-color: midnightblue;
+    cursor: pointer;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -55,4 +60,9 @@ ul li {
     flex-grow: 1;
     text-align: center;
     box-shadow: 0px 1px 4px rgba(0,0,0,0.2)
+}
+
+ul li:hover {
+    background-color:blueviolet;
+    cursor: pointer;
 }
